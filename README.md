@@ -93,8 +93,8 @@ Using GitLab CI:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/Here2ServeU/multicloud-dr-demo.git
-cd multicloud-dr-demo
+git clone https://github.com/Here2ServeU/multicloud-dr-case-study.git
+cd multicloud-dr-case-study
 ```
 
 ### Step 2: Customize Terraform Modules
