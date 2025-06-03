@@ -150,7 +150,6 @@ Using **GitLab CI**:
 
 **Emmanuel Naweji**  
 Cloud | DevOps | Resilience Engineering  
-Founder @ Transformed 2 Succeed (T2S)  
 🔗 [LinkedIn](https://linkedin.com/in/emmanuelnaweji) | [GitHub](https://github.com/Here2ServeU) | [t2s.ai](https://t2s.ai)
 
 ---
