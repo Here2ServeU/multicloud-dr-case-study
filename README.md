@@ -175,6 +175,38 @@ cd ../gcp && terraform init && terraform apply
 
 ---
 
+## Cleanup Instructions
+
+To avoid unnecessary charges and free up cloud resources, follow these steps to clean up:
+
+### Step 1: Destroy Terraform Infrastructure
+
+```bash
+cd terraform/aws && terraform destroy
+cd ../azure && terraform destroy
+cd ../gcp && terraform destroy
+```
+
+### Step 2: Remove Deployed Serverless Functions
+
+- AWS: Delete Lambda functions via AWS Console or CLI
+- Azure: Remove functions using Azure Portal or `az functionapp delete`
+- GCP: Delete functions via GCP Console or `gcloud functions delete`
+
+### Step 3: Delete DNS Records (Optional)
+
+- If you configured Route53 or custom DNS zones, ensure they are removed to prevent misrouting
+
+### Step 4: Clean Up CI/CD Secrets
+
+- Remove any stored keys, tokens, or credentials in GitLab/GitHub project settings
+
+### Step 5: Archive Logs
+
+- Download or archive logs from ELK/GCP Logs/CloudWatch if needed for audit purposes
+
+---
+
 ## Author
 
 Emmanuel Naweji  
