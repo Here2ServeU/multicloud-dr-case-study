@@ -93,7 +93,7 @@ Using GitLab CI:
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-org/multicloud-dr-demo.git
+git clone https://github.com/Here2ServeU/multicloud-dr-demo.git
 cd multicloud-dr-demo
 ```
 
